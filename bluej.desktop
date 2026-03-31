@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Bluej
+GenericName=Java IDE
+Comment=An educational IDE for Java
+# Exec=env GDK_BACKEND=x11 bluej %u
+Exec=env GDK_BACKEND=wayland bluej %u
+Icon=bluej
+Categories=Development;IDE;Java;Education;
+Terminal=false
+StartupNotify=true
+StartupWMClass=bluej.Boot$App
+MimeType=application/x-bluej.package;
